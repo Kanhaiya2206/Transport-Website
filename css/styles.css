@@ -2,11 +2,17 @@ body{
     font-family: "Montserrat";
 }
 #title{
-    background-color: #ff4c68;
-    color: #fff;
+    text-align: left;
 }
 .container-fluid{
     padding: 3% 15% 7%;
+}
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
 }
 .navbar{
     padding: 0 0 4.5rem;
@@ -36,7 +42,6 @@ h1{
     position: absolute;
 }
 #features{
-    background-color: #fff;
     padding: 7% 15%;
     position: relative;
 }
@@ -63,7 +68,7 @@ p{
     
     text-align: center;
     background-color: #ef8172;
-    color: #fff;
+    
 }
 .carousel-item{
     padding: 7% 15%;
@@ -100,8 +105,7 @@ h2{
     padding: 3% 2%;
 }
 #cta{
-    background-color: #ff4c68;
-    color: #fff;
+   
     padding: 7% 15%;
     text-align: center;
 }
